@@ -2,6 +2,36 @@
   text-align: center;
 }
 
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./papers.co-mx87-turkey-balloon-travel-mountain-2560x1600.jpg");
+  background-size: cover;
+  color: #fff;
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background > h1 {
+  margin: 10px 0;
+}
+
+.background button {
+  border: 1px solid #eee;
+  padding: 5px 30px;
+  background-color: transparent;
+  transition: ease-in-out 0.3s;
+  color: white;
+}
+.background button:hover {
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
